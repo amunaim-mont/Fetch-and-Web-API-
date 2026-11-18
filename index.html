@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty Character Search</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1>Rick and Morty Character Search</h1>
+
+    <p>
+      Search for characters by entering a name and optionally selecting
+      a species.
+    </p>
+
+    <form id="searchForm">
+      <label for="characterName">Character name:</label>
+      <input type="text" id="characterName" placeholder="Example: Rick">
+
+      <label for="species">Species:</label>
+      <select id="species">
+        <option value="">Any species</option>
+        <option value="Human">Human</option>
+        <option value="Alien">Alien</option>
+        <option value="Robot">Robot</option>
+      </select>
+
+      <button type="submit">Search</button>
+    </form>
+
+    <p id="message"></p>
+
+    <section id="results" class="results"></section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dff6ff;
+    color: #19324d;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #999;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #176b87;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: end;
+    margin: 25px 0;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  button {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    font-size: 16px;
+  }
+  
+  input {
+    width: 220px;
+  }
+  
+  select {
+    width: 160px;
+  }
+  
+  button {
+    background-color: #176b87;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0d4659;
+  }
+  
+  #message {
+    font-weight: bold;
+  }
+  
+  .results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .character-card {
+    width: 220px;
+    padding: 15px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: #f2fbff;
+    text-align: center;
+  }
+  
+  .character-card img {
+    width: 180px;
+    border-radius: 8px;
+  }
+  
+  .character-card h2 {
+    color: #176b87;
+  }
+  
+  .character-card p {
+    text-align: left;
+  }
